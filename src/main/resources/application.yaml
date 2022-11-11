@@ -1,0 +1,13 @@
+app:
+  firebase:
+    file: binar-ra-cinema-firebase.json
+
+spring:
+  application:
+    name: NOTIFICATION-SERVICE
+
+eureka:
+  instance:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
