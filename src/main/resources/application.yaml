@@ -4,15 +4,16 @@ app:
   jwt:
     key: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
 
-server:
-  port: 8081
-
 spring:
   application:
-    name: NOTIFICATION-SERVICE
+    name: notification-service
 
-eureka:
-  instance:
-    client:
-      serviceUrl:
-        defaultZone: http://localhost:8761/eureka
+server:
+  port: 8092
+#
+#eureka:
+#  instance:
+#    hostname: binar-cinema-discovery.up.railway.app
+#  client:
+#    serviceUrl:
+#      defaultZone: https://${eureka.instance.hostname}/eureka
